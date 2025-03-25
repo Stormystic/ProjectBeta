@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+	"overrides": [
+		{"predicate": {"custom_model_data":1975}, "model": "minecraft:item/swords/jeweled_sword"},
+		{"predicate": {"custom_model_data":1985}, "model": "minecraft:item/swords/mythril_sword"},
+		{"predicate": {"custom_model_data":1993}, "model": "minecraft:item/swords/zantetsuken"},
+		{"predicate": {"custom_model_data":1999}, "model": "minecraft:item/swords/caliburn"},
+		{"predicate": {"custom_model_data":2005}, "model": "minecraft:item/swords/nirvana"},	
+		{"predicate": {"custom_model_data":2011}, "model": "minecraft:item/swords/nights_edge"},	
+		{"predicate": {"custom_model_data":2017}, "model": "minecraft:item/swords/ragnarok"},
+		{"predicate": {"custom_model_data":2023}, "model": "minecraft:item/swords/excalibur_ii"},
+		{"predicate": {"custom_model_data":2024}, "model": "minecraft:item/swords/flamebrand"},
+		{"predicate": {"custom_model_data":2025}, "model": "minecraft:item/swords/icebrand"},
+                {"predicate": {"custom_model_data":2026}, "model": "minecraft:item/swords/7th_heaven"},
+                {"predicate": {"custom_model_data":2027}, "model": "minecraft:item/swords/polybius"}
+
+                  	
+	
+	]
+}

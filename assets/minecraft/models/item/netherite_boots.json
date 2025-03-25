@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/netherite_boots"
+  },
+	"overrides": [
+		{"predicate": {"custom_model_data":1971}, "model": "minecraft:item/armor/adamantite_boots"},
+		{"predicate": {"custom_model_data":1981}, "model": "minecraft:item/armor/mythril_boots"},
+		{"predicate": {"custom_model_data":1995}, "model": "minecraft:item/armor/topaz_boots"},
+		{"predicate": {"custom_model_data":2001}, "model": "minecraft:item/armor/jade_boots"},
+		{"predicate": {"custom_model_data":2007}, "model": "minecraft:item/armor/ruby_boots"},
+		{"predicate": {"custom_model_data":2013}, "model": "minecraft:item/armor/amethyst_boots"},
+		{"predicate": {"custom_model_data":2019}, "model": "minecraft:item/armor/sapphire_boots"}
+	]
+}
