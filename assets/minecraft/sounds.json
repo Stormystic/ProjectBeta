@@ -213,7 +213,12 @@
   },
   "music.overworld.deep_dark": {
       "replace": true,
-      "sounds": []
+      "sounds": [
+          {
+              "name": "music.creative",
+              "type": "event"
+          }
+      ]
   },
   "music.overworld.dripstone_caves": {
       "replace": true,
@@ -2757,31 +2762,6 @@
     "sounds": [
       {
         "name": "blank"
-      }
-    ]
-  },
-  "music.nether.basalt_deltas": {
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/game/nether/nether1",
-        "stream": true,
-        "weight": 1
-      },
-      {
-        "name": "music/game/nether/nether2",
-        "stream": true,
-        "weight": 1
-      },
-      {
-        "name": "music/game/nether/nether3",
-        "stream": true,
-        "weight": 1
-      },
-      {
-        "name": "music/game/nether/nether4",
-        "stream": true,
-        "weight": 1
       }
     ]
   },
